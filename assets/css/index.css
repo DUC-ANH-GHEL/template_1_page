@@ -1,0 +1,52 @@
+/*-------------------------------------------------- 
+[table of content]
+
+--------------------------------------------------*/
+.top-head {
+    background: #222222;
+    height: 47px;
+}
+
+.text-head {
+    font-family: 'Times New Roman', Times, serif;
+    color: #525252;
+}
+
+.text-head.one {
+    margin-left: 22.5px;
+}
+
+.text-head.two {
+    margin-right: 16px;
+}
+
+.text-head.three {
+    margin-right: 22px;
+}
+
+.navbar-brand {
+    border: solid;
+    font-family: montserrat;
+    height: 47px;
+    width: 165px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.top-nav {
+    background: #ffffff;
+    border-bottom: solid 1px;
+    height: 79px;
+}
+
+.nav-item.active {
+    margin-left: 291px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.heart {
+    margin-left: 437px;
+}

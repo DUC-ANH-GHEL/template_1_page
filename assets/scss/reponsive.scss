@@ -1,0 +1,162 @@
+    @media all and (max-width: 1024px) {
+        .products {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 35px;
+        }
+        .banner-2 {
+            top: 1%;
+        }
+    }
+    
+    @media all and(max-width:768px) {
+        .top {
+            .withlist-mobile {
+                display: block;
+            }
+        }
+        .products {
+            grid-template-columns: 1fr 1fr;
+            .product-item {
+                text-align: center;
+            }
+        }
+        // .banner-1 {
+        //     margin-top: 43%;
+        // }
+        footer {
+            .about {
+                ul {
+                    letter-spacing: 4px;
+                    margin-left: 32%;
+                }
+            }
+        }
+        // slide
+        /* The sidebar menu */
+        .sidebar {
+            height: 100%;
+            /* 100% Full-height */
+            width: 0;
+            /* 0 width - change this with JavaScript */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            left: 0;
+            background-color: #111;
+            /* Black*/
+            overflow-x: hidden;
+            /* Disable horizontal scroll */
+            padding-top: 60px;
+            /* Place content 60px from the top */
+            transition: 0.5s;
+            /* 0.5 second transition effect to slide in the sidebar */
+        }
+        /* The sidebar links */
+        .navbar-light .navbar-nav .nav-link {
+            /* color: black; */
+            color: wheat;
+        }
+        .sidebar {
+            a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                // color: white;
+                display: block;
+                transition: 0.3s;
+            }
+            ul {
+                li {
+                    .nav-link {
+                        color: white;
+                    }
+                }
+            }
+        }
+        /* When you mouse over the navigation links, change their color */
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        /* Position and style the close button (top right corner) */
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+        // @media screen and (max-height: 450px) {
+        //     .sidebar {
+        //         padding-top: 15px;
+        //         .closebtn {
+        //             display: block;
+        //         }
+        //     }
+        //     .sidebar a {
+        //         font-size: 18px;
+        //     }
+        // }
+    }
+    
+    @media all and(max-width: 500px) {
+        .top-head {
+            font-size: 7pt;
+        }
+        .products {
+            grid-template-columns: 1fr;
+        }
+        .top {
+            .withlist-mobile {
+                display: block;
+                margin-left: -39px;
+            }
+            .logo {
+                img {
+                    width: 145px;
+                }
+            }
+        }
+        .banner-1 {
+            .text-banner-1 {
+                .text-banner-one {
+                    font-size: 11pt;
+                }
+                .cart {
+                    font-size: 8pt;
+                    left: 69%;
+                }
+            }
+        }
+        .products {
+            .product-item {
+                text-align: center;
+            }
+        }
+        .featured-items h4 {
+            font-size: 20pt;
+        }
+        .product-item .text-pro a {
+            left: 16%;
+        }
+    }
+    
+    @media all and(max-width:320px) {
+        .top {
+            .logo {
+                img {
+                    width: 117px;
+                }
+            }
+        }
+        .banner-1 {
+            .text-banner-1 {
+                .text-banner-one {
+                    left: 43%;
+                }
+            }
+        }
+    }

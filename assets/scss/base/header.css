@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.container {
+  padding: 0; }
+
+article {
+  margin-top: 30px; }
+
+.top-head {
+  background: #222222;
+  height: 47px; }
+
+.text-head {
+  font-family: 'Times New Roman', Times, serif;
+  color: #525252; }
+  .text-head .one {
+    margin-left: 22.5px; }
+  .text-head .two {
+    margin-right: 16px; }
+  .text-head .three {
+    margin-right: 22px; }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #dddddd;
+  height: 79px;
+  z-index: 1000;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%; }
+  .top .withlist-mobile {
+    display: none; }
+  .top .logo img {
+    width: 200px; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.sidebar .closebtn {
+  display: none; }
+
+.nav-link {
+  color: black; }
+
+.navbar-light {
+  color: black !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black; }
+
+.bg-light {
+  background-color: white !important; }
+
+.banner-1 {
+  position: relative; }
+  .banner-1 .text-banner-1 .cart {
+    position: absolute;
+    top: 66%;
+    left: 79%; }
+  .banner-1 .text-banner-1 span {
+    position: absolute;
+    font-family: 'Pacifico';
+    font-size: 25pt;
+    top: 56%;
+    left: 45%; }
+
+.banner-2 {
+  position: relative; }
+  .banner-2 .text-banner-2 .text-banner-two {
+    color: #6a6b6c;
+    position: absolute;
+    font-size: 18px;
+    top: 37%;
+    left: 14%;
+    letter-spacing: 3px; }
+  .banner-2 .text-banner-2 .text-banner-three {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 47%;
+    left: 14%; }
+
+.shop-now, .banner-1 .text-banner-1 .cart, .banner-3 .text-banner-3 .cart {
+  border: solid 1px;
+  background: #8262b5;
+  color: white;
+  font-size: 14pt; }
+
+.banner-3 {
+  margin-top: 32px;
+  position: relative; }
+  .banner-3 .text-banner-3 .cart {
+    position: absolute;
+    top: 58%;
+    left: 15%; }
+  .banner-3 .text-banner-3 .text-banner-four {
+    color: #6a6b6c;
+    position: absolute;
+    font-size: 18px;
+    top: 39%;
+    left: 14%;
+    letter-spacing: 3px; }
+  .banner-3 .text-banner-3 .text-banner-five {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    top: 47%;
+    left: 14%; }
+
+/*# sourceMappingURL=header.css.map */

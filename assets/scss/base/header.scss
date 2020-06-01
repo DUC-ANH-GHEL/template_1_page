@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.container {
+    padding: 0;
+}
+
+article {
+    margin-top: 30px;
+}
+
+.top-head {
+    background: #222222;
+    height: 47px;
+}
+
+.text-head {
+    font-family: 'Times New Roman', Times, serif;
+    color: #525252;
+    .one {
+        margin-left: 22.5px;
+    }
+    .two {
+        margin-right: 16px;
+    }
+    .three {
+        margin-right: 22px;
+    }
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #dddddd;
+    height: 79px;
+    // on top
+    z-index: 1000;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    .withlist-mobile {
+        display: none;
+    }
+    .logo {
+        img {
+            width: 200px;
+        }
+    }
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.sidebar {
+    .closebtn {
+        display: none;
+    }
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-light {
+    color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.banner-1 {
+    position: relative;
+    .text-banner-1 {
+        // position: absolute;
+        .cart {
+            @extend.shop-now;
+            position: absolute;
+            top: 66%;
+            left: 79%;
+        }
+        span {
+            position: absolute;
+            font-family: 'Pacifico';
+            font-size: 25pt;
+            top: 56%;
+            left: 45%;
+            // transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.banner-2 {
+    position: relative;
+    .text-banner-2 {
+        .text-banner-two {
+            color: #6a6b6c;
+            position: absolute;
+            font-size: 18px;
+            top: 37%;
+            left: 14%;
+            letter-spacing: 3px;
+        }
+        .text-banner-three {
+            font-family: 'Montserrat', sans-serif;
+            position: absolute;
+            font-size: 20px;
+            top: 47%;
+            left: 14%;
+            // transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.shop-now {
+    border: solid 1px;
+    background: #8262b5;
+    color: white;
+    font-size: 14pt;
+}
+
+.banner-3 {
+    margin-top: 32px;
+    position: relative;
+    .text-banner-3 {
+        // position: absolute;
+        // top: 50%;
+        // left: 15%;
+        // transform: translate(-50%, -50%);
+        .cart {
+            @extend.shop-now;
+            position: absolute;
+            top: 58%;
+            left: 15%;
+        }
+        .text-banner-four {
+            color: #6a6b6c;
+            position: absolute;
+            font-size: 18px;
+            top: 39%;
+            left: 14%;
+            letter-spacing: 3px;
+        }
+        .text-banner-five {
+            font-family: 'Montserrat', sans-serif;
+            position: absolute;
+            font-size: 20px;
+            top: 47%;
+            left: 14%;
+        }
+    }
+}
