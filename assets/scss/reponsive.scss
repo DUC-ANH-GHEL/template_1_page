@@ -21,6 +21,9 @@
                 text-align: center;
             }
         }
+        .product-item .text-pro a {
+            left: 15%;
+        }
         // .banner-1 {
         //     margin-top: 43%;
         // }
@@ -100,6 +103,12 @@
         //         font-size: 18px;
         //     }
         // }
+        .sidebar8 {
+            margin-left: 0px;
+            background: #00f3ffbf;
+            display: flex;
+            justify-content: center;
+        }
     }
     
     @media all and(max-width: 500px) {
@@ -142,6 +151,15 @@
         .product-item .text-pro a {
             left: 16%;
         }
+        .sidebar8 {
+            margin-left: 0px;
+            background: #00f3ffbf;
+            display: flex;
+            justify-content: center;
+        }
+        .blog .blog-post {
+            margin-top: 10%;
+        }
     }
     
     @media all and(max-width:320px) {
@@ -156,6 +174,26 @@
             .text-banner-1 {
                 .text-banner-one {
                     left: 43%;
+                }
+            }
+        }
+        .sidebar8 {
+            margin-left: 0px;
+            background: #00f3ffbf;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+    @media all and(max-width:1024px) {
+        .sidebar8 {
+            font-size: 10pt;
+        }
+        footer {
+            .about {
+                ul {
+                    letter-spacing: 4px;
+                    margin-left: 32%;
                 }
             }
         }
